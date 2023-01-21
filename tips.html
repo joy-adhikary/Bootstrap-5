@@ -1,6 +1,6 @@
 
 
-flexbox r grid er align-items alada vabe kaj kore . flexbox a align-items dilei jto gula row ashe sob alda alda jaiga niye nibe . mane just akta akta row niye align korbe . mane 10 ta row thakle 10 take alda vabe align korbe. r grid a 
+*** flexbox r grid er align-items alada vabe kaj kore .ak akta flex row ak akta items. flexbox a align-items dilei jto gula row ashe sob alda alda jaiga niye nibe . mane just akta akta row niye align korbe . mane 10 ta row thakle 10 take alda vabe align korbe. r grid a 
 align-items mane container er majhe kisu element thake oi element er majher jinish gula ke y axis borabor align korbe . 
 
 sumit er vedio flexbox ( 27 min theke https://www.youtube.com/watch?v=kRS5ficucNM&t=2799s&ab_channel=LearnwithSumit-LWS-Bangladesh )
@@ -135,7 +135,9 @@ Example  ( with responsive ) =>
 </html>
 
 
-6. .flex-fill kore ki full row ta niye nei .. jodi onk gula te flex-fill deya thake tahole sob gula e equal widths nibe 
+6. .flex-fill kore ki full row ta niye nei .. jodi onk gula te flex-fill deya thake tahole sob gula e equal widths nibe .
+
+7.flew-grow o same kaj kore . mane amr kase 10 ta item ashe  kintu 9 tah item 1st row te gase kintu 1 tah item (100px ) er jaiga faka nai.faka ashe 90px to tahole by default oi jaiga ta faka thakbe kintu grow dile oi faka jaiga tuku o sob gula equally fill kore dibe .
 
 
 <div class="container mt-3">
@@ -155,4 +157,9 @@ Example  ( with responsive ) =>
 </div>
 
 
-7.
+7.The following example will result in a 25% 75% split on small devices and a 50% 50% split on medium (and large, xlarge, xxlarge) devices. On extra small devices, it will automatically stack (100%)
+
+<div class="col-sm-3 col-md-6">....</div>
+<div class="col-sm-9 col-md-6">....</div>
+
+Now Bootstrap is going to say "at the small size, look at classes with -sm- in them and use those.( that means it will take 25% for 1st div and 75% for 2nd ). At the medium size, look at classes with -md- in them and use those( it will use 50-50 ).
